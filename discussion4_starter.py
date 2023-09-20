@@ -28,7 +28,8 @@ class Rectangle():
     #       True if the width and height are positive numbers
     #       False otherwise
 
-    # YOUR CODE HERE
+    def __verify_input__(self):
+        return self.width and self.height >= 0 
 
 
 
